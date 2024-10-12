@@ -13,7 +13,7 @@ const YogaTour = () => {
       
       <div className="mb-12">
         <Image
-          src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1000"
+          src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=1000"
           alt="Yoga Tour"
           width={1000}
           height={600}

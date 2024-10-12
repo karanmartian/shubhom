@@ -90,7 +90,7 @@ const BookingForm = () => {
                 <SelectContent>
                   <SelectItem value="online">Online Classes</SelectItem>
                   <SelectItem value="offline">Offline Classes</SelectItem>
-                  <SelectItem value="home">Home Practice</SelectItem>
+                  <SelectItem value="personal">Personal Yoga Classes</SelectItem>
                   <SelectItem value="therapy">Yoga Therapy</SelectItem>
                   <SelectItem value="tour">Yoga Tour</SelectItem>
                   <SelectItem value="corporate">Corporate Yoga</SelectItem>

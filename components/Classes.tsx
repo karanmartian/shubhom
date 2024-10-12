@@ -19,10 +19,10 @@ const classesData = [
     type: 'offline',
   },
   {
-    title: 'Home Practice',
-    description: 'Develop your personal yoga routine with our guided home practice resources. Flexible and adaptable to your space and time.',
-    image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    type: 'home',
+    title: 'Personal Yoga Classes',
+    description: 'Develop your personal yoga routine with our guided practice resources. Flexible and adaptable to your space and time.',
+    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    type: 'personal',
   },
   {
     title: 'Yoga Therapy',
@@ -33,7 +33,7 @@ const classesData = [
   {
     title: 'Yoga Tour',
     description: 'Immerse yourself in yoga while exploring beautiful destinations. Combine your practice with travel for a truly transformative experience.',
-    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     type: 'tour',
   },
   {
