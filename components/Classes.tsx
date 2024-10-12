@@ -1,7 +1,9 @@
+'use client';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const classesData = [
   {
@@ -43,6 +45,8 @@ const classesData = [
 ];
 
 const Classes = () => {
+  const router = useRouter();
+
   return (
     <section id="classes" className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -63,11 +67,19 @@ const Classes = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription>{yogaClass.description}</CardDescription>
-                <Link href={`/book?type=${yogaClass.type}`} passHref>
-                  <Button className="mt-4 bg-green-600 hover:bg-green-700 text-white">
-                    Book Now
+                <div className="flex justify-between mt-4">
+                  <Button 
+                    className="bg-green-600 hover:bg-green-700 text-white"
+                    onClick={() => router.push(`/classes/${yogaClass.type}`)}
+                  >
+                    Learn More
                   </Button>
-                </Link>
+                  <Link href={`/book?type=${yogaClass.type}`} passHref>
+                    <Button className="bg-green-600 hover:bg-green-700 text-white">
+                      Book Now
+                    </Button>
+                  </Link>
+                </div>
               </CardContent>
             </Card>
           ))}
