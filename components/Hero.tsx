@@ -1,6 +1,19 @@
+'use client';
+
 import { Button } from '@/components/ui/button';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
+
+  const handleStartJourney = () => {
+    // Push the URL with the hash
+    router.push('/#classes');
+    
+    // Smooth scroll to the element
+    document.getElementById('classes')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative h-screen flex items-center justify-center text-center text-white">
       <div
@@ -13,7 +26,11 @@ const Hero = () => {
       <div className="relative z-20 max-w-3xl mx-auto px-4">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">Welcome to ShubhOm</h1>
         <p className="text-xl md:text-2xl mb-8">Discover inner peace and transform your body with our expert-led yoga classes</p>
-        <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+        <Button 
+          size="lg" 
+          className="bg-green-600 hover:bg-green-700 text-white"
+          onClick={handleStartJourney}
+        >
           Start Your Journey
         </Button>
       </div>
