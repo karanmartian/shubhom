@@ -2,19 +2,19 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const classesData = [
   {
-    title: 'Hatha Yoga',
-    description: 'A gentle introduction to the most basic yoga postures.',
-    image: 'https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    title: 'Online Classes',
+    description: 'Join our expert-led yoga sessions from the comfort of your home. Perfect for busy schedules and remote practitioners.',
+    image: 'https://images.unsplash.com/photo-1599447421416-3414500d18a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
   },
   {
-    title: 'Vinyasa Flow',
-    description: 'A dynamic practice that connects movement with breath.',
-    image: 'https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    title: 'Offline Classes',
+    description: 'Experience the energy of in-person yoga at our studio. Benefit from hands-on adjustments and a supportive community atmosphere.',
+    image: 'https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
   },
   {
-    title: 'Yin Yoga',
-    description: 'A slow-paced style of yoga with seated postures held for longer periods.',
-    image: 'https://images.unsplash.com/photo-1552196563-55cd4e45efb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    title: 'Home Practice',
+    description: 'Develop your personal yoga routine with our guided home practice resources. Flexible and adaptable to your space and time.',
+    image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
   },
 ];
 
