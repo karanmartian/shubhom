@@ -67,18 +67,20 @@ const Classes = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription>{yogaClass.description}</CardDescription>
-                <div className="flex justify-between mt-4">
+                <div className="flex justify-center space-x-4 mt-4">
                   <Button 
-                    className="bg-green-600 hover:bg-green-700 text-white"
+                    variant="outline"
+                    className="bg-green-100 text-green-700 hover:bg-green-200"
                     onClick={() => router.push(`/classes/${yogaClass.type}`)}
                   >
                     Learn More
                   </Button>
-                  <Link href={`/book?type=${yogaClass.type}`} passHref>
-                    <Button className="bg-green-600 hover:bg-green-700 text-white">
-                      Book Now
-                    </Button>
-                  </Link>
+                  <Button 
+                    className="bg-green-600 hover:bg-green-700 text-white"
+                    onClick={() => router.push(`/book?type=${yogaClass.type}`)}
+                  >
+                    Book Now
+                  </Button>
                 </div>
               </CardContent>
             </Card>
