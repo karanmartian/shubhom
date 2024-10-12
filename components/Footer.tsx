@@ -28,9 +28,9 @@ const Footer = () => {
           <div className="w-full md:w-1/4">
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-green-300"><FacebookIcon /></a>
-              <a href="#" className="text-white hover:text-green-300"><Instagram /></a>
-              <a href="#" className="text-white hover:text-green-300"><Youtube /></a>
+              <a href="https://www.facebook.com/profile.php?id=100088671083795" className="text-white hover:text-green-300"><FacebookIcon /></a>
+              <a href="https://www.instagram.com/shubhomyog" className="text-white hover:text-green-300"><Instagram /></a>
+              <a href="https://www.youtube.com/@shubhomyog547" className="text-white hover:text-green-300"><Youtube /></a>
             </div>
           </div>
         </div>
