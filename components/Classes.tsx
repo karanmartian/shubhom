@@ -34,6 +34,12 @@ const classesData = [
     image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     type: 'tour',
   },
+  {
+    title: 'Corporate Yoga',
+    description: 'Bring wellness to your workplace with our tailored corporate yoga programs. Boost employee productivity, reduce stress, and promote a healthier work environment.',
+    image: 'https://images.unsplash.com/photo-1517637633369-e4cc28755e01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    type: 'corporate',
+  },
 ];
 
 const Classes = () => {
