@@ -32,13 +32,14 @@ const Classes = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {classesData.map((yogaClass, index) => (
             <Card key={index} className="overflow-hidden border-green-200">
-              <Image
-                src={yogaClass.image}
-                alt={yogaClass.title}
-                width={500} // Adjust based on your needs
-                height={300} // Adjust based on your needs
-                layout="responsive"
-              />
+              <div className="relative w-full h-48">
+                <Image
+                  src={yogaClass.image}
+                  alt={yogaClass.title}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
               <CardHeader>
                 <CardTitle className="text-green-700">{yogaClass.title}</CardTitle>
               </CardHeader>
