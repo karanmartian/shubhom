@@ -22,6 +22,18 @@ const classesData = [
     image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     type: 'home',
   },
+  {
+    title: 'Yoga Therapy',
+    description: 'Specialized sessions focusing on healing and managing various body pains. Ideal for those with back pain, shoulder issues, neck discomfort, and other types of body pain.',
+    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    type: 'therapy',
+  },
+  {
+    title: 'Yoga Tour',
+    description: 'Immerse yourself in yoga while exploring beautiful destinations. Combine your practice with travel for a truly transformative experience.',
+    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
+    type: 'tour',
+  },
 ];
 
 const Classes = () => {
