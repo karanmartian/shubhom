@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Facebook, Twitter, Instagram } from 'lucide-react';
+import { Facebook, FacebookIcon, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -22,16 +22,15 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h4 className="text-lg font-semibold mb-2">Contact Us</h4>
-            <p className="text-sm">123 Zen Street, Harmony City, 12345</p>
-            <p className="text-sm">Phone: (123) 456-7890</p>
-            <p className="text-sm">Email: info@shubhom.com</p>
+            <p className="text-sm">Phone/Whatsapp: 7906259997</p>
+            <p className="text-sm">Email: shubhomyog547@gmail.com</p>
           </div>
           <div className="w-full md:w-1/4">
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-green-300"><Facebook /></a>
-              <a href="#" className="text-white hover:text-green-300"><Twitter /></a>
+              <a href="#" className="text-white hover:text-green-300"><FacebookIcon /></a>
               <a href="#" className="text-white hover:text-green-300"><Instagram /></a>
+              <a href="#" className="text-white hover:text-green-300"><Youtube /></a>
             </div>
           </div>
         </div>
